@@ -1,5 +1,5 @@
+.env
 db
 node_modules
 components/routes/_*
 ngrok.exe
-.env
