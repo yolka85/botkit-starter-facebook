@@ -28,5 +28,12 @@ module.exports = function(controller) {
         ]
       })
     }
-  })
+    else{
+      bot.reply(message, 'This button is under construction');
+    }
+  });
+  controller.on('message_received', function(bot, message) {
+    console.log(message.quick_reply.payload);
+    bot.reply(message, 'This button is under construction');
+  });
 };

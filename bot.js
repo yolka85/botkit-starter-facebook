@@ -113,4 +113,4 @@ function usage_tip() {
     console.log('~~~~~~~~~~');
 }
 
-var app = require('./skills/app1')(controller);
+// var app = require('./skills/app1')(controller);
